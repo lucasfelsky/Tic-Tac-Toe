@@ -86,6 +86,7 @@ document.querySelector('#botaoResetRanking').addEventListener('click', function(
         pontos: 0
       }
     }
+    localStorage.setItem('Jogo Iniciado', false);
     localStorage.removeItem('TotalScore');
     location.reload();
 })
