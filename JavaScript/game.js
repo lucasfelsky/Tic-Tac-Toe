@@ -139,6 +139,8 @@ function verificadorVencedor(){
     }
 
     if(clicks == 9 && vitoriaP1 == false && vitoriaP2 == false){
+        PlayerTempInfo1.pontos++;
+        PlayerTempInfo2.pontos++;  
         window.location.href = "empate.html";
     }
 
