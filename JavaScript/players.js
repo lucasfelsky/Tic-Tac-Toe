@@ -11,7 +11,7 @@ gameStorage = localStorage;
 
 document.querySelector('#player1name').addEventListener('change', function(){
     player1Name = document.querySelector('#player1name').value;
-    let regexName = /^[A-Z,a-z,0-9,ç,á,é,í,ó,ú,ã]+$/;
+    let regexName = /^[A-Z,a-z,0-9,ç,á,é,í,ó,ú,ã,\.,_,\-,@]+$/;
     if(regexName.test(player1Name)){
         document.getElementById('seletorForma').style.display = 'block';
     } else {
@@ -34,7 +34,7 @@ document.querySelector('#cross').addEventListener('click', function(){
 
 document.querySelector('#player2name').addEventListener('change', function(){
     player2Name = document.querySelector('#player2name').value;
-    let regexName = /^[A-Z,a-z,0-9,ç,á,é,í,ó,ú,ã]+$/;
+    let regexName = /^[A-Z,a-z,0-9,ç,á,é,í,ó,ú,ã,\.,_,\-,@]+$/;
     if(regexName.test(player2Name)){
         document.getElementById('botaoEnviarPlayer').style.display = 'block';
     } else {
@@ -48,9 +48,7 @@ document.querySelector('#sendButton').addEventListener('click', function(){
     } else {
         formaEscolhidaPlayer2 = "X";
     }
-
     window.location.href = "jogo.html";
-    //salvar os nomes e forma aqui
 })
 
 const infoPlayer1 = {

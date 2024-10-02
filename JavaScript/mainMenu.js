@@ -11,5 +11,4 @@ document.querySelector('#playButton').addEventListener('click', function(){
 
 document.querySelector('#continueButton').addEventListener('click', function(){
     window.location.href = "jogo.html";
-    //teste
 })
