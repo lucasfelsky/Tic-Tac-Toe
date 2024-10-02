@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="JavaScript/players.js"></script>
+    <title>Tic-Tac-Toe: Jogadores</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Honk&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+  
+  <body style="background-image: url(Assets/fundoMen.png); background-position: center;">
+    <div class="botaoVoltarJogo" id="botaoVoltarJogo">
+      <a href="index.html" style="text-decoration: none;">Voltar ao Menu Principal</a>
+    </div>
+    <div class="nomes">
+      <div class="jogador1" id="jogador1">
+        <span>Jogador 1</span>
+        <div>
+          <input type="text" placeholder="Digite seu nome" id="player1name" class="player1name"/>
+        </div>
+        <div class="seletorForma" id="seletorForma">
+          <div id="circle" class="circle">
+            <img src="Assets/circle.png" width="50px">
+          </div>
+          <div id="cross" class="cross">
+            <img src="Assets/cross.png" width="50px">
+          </div>
+        </div>
+      </div>
+      <div class="jogador2" id="jogador2">
+        <span>Jogador 2</span>
+          <div>
+            <input type="text" placeholder="Digite seu nome" id="player2name" class="player2name" />
+          </div>
+          <div class="botaoEnviarPlayer" id="botaoEnviarPlayer">
+           <button id="sendButton">Enviar</button>
+         </div>
+      </div>
+    </div>
+  </body>
+</html>

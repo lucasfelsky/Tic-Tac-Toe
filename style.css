@@ -1,0 +1,340 @@
+    .titulo {
+        text-align: center;
+        margin-top: 150px;
+        font-size: 150px;
+        font-family: Honk;
+    }
+
+    .botoes-menu{
+        text-align: center;
+        margin-top: 60px;
+    }
+
+    .botoes-menu button {
+        font-size: 40px;
+        font-weight: 700;
+        padding: 8px 20px 8px 20px;
+        margin-inline: 30px;
+        font-family: Silkscreen;
+        color: #350722;
+        border-radius: 5px;
+    }
+
+    .botaoEnviarPlayer button {
+        font-size: 25px;
+        font-weight: 700;
+        padding: 5px 10x 5px 10px;
+        margin-inline: 30px;
+        font-family: Silkscreen;
+        color: #350722;
+        border-radius: 5px;
+    }
+
+    .nomes {
+        text-align: center;
+        font-size: 50px;
+        margin-top: 150px;
+        font-family: Honk;
+        border: 1px solid #25152e83;
+        background-color: #25152e83;
+        width: max-content;
+        height: max-content;
+        padding: 20px;
+        border-radius: 5px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .nomes input {
+        size: 50px;
+    }
+
+    .jogador2 {
+        margin-top: 15px;
+        display: none;
+    }
+
+    .menuPrincipal{
+        margin: 80px;
+        margin-bottom: 0px;
+        height: auto;
+        padding-bottom: 370px;
+        border-radius: 15px;
+
+    }
+
+    .botaoEnviarPlayer button:hover{
+        background-color: #350722;
+        color: white;
+    }
+
+    .botoes-menu button:hover{
+        background-color: #350722;
+        color: white;
+    }
+
+    .player1name {
+        font-size: 20px;
+        border-radius: 10px;
+        padding-left: 10px;
+    }
+
+    .player2name {
+        font-size: 20px;
+        border-radius: 10px;
+        padding-left: 10px;
+    }
+
+    .seletorForma{
+        margin-top: 25px;
+        background-color: #e4dde1;
+        padding: 14px 10px 0px 8px;
+        width: max-content;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 20px;
+        display: none;
+    }
+
+    .seletorForma div{
+        display: inline;
+        margin: 0px 8px 0px 8px;
+    }
+
+    .circle :hover{
+        background-color: #0d81029a;
+        border-radius: 25px;
+    }
+
+    .cross :hover{
+        background-color: #8102029a;
+        border-radius: 25px;
+    }
+
+    .botaoEnviarPlayer{
+        display: none;
+    }
+
+    .botaoVoltar{
+        text-align: center;
+        font-size: 50px;
+        font-family: Honk;
+        width: max-content;
+        height: max-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .botaoVoltarJogo{
+        text-align: center;
+        font-size: 50px;
+        font-family: Honk;
+        width: max-content;
+        height: max-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .tituloRanking{
+        text-align: center;
+        margin-top: 30px;
+        font-size: 80px;
+        font-family: Honk;
+    }
+
+    .tituloJogo{
+        text-align: center;
+        margin-top: 20px;
+        font-size: 70px;
+        font-family: Honk;
+    }
+
+    .janelaJogo{
+        margin: 25px auto auto auto;
+        border-radius: 5px;
+        background-color: #1d0936e0;
+        width: 488px;
+        height: 490px;
+        padding-bottom: 4px;
+        padding-left: 4px;
+        padding-right: 4px;
+        pointer-events: none;
+    }
+
+    .score {
+        margin: 10px auto auto auto;
+        border: 10px solid #25152e83;
+        border-radius: 5px;
+        background-color: #25152ee3;
+        width: 380px;
+        height: max-content;
+        text-align: center;
+    }
+
+    .score div{
+        display: inline;
+        margin-inline: 20px;
+        padding: 5px;
+        border-radius: 5px;
+        font-size: 25px;
+        color: white;
+        font-weight: bold;
+    }
+
+    .scoreTitle {
+        font-family: Honk;
+        font-size: 50px;
+        text-align: center;
+        margin: 15px auto auto auto;
+    }
+
+    .janelaJogo div {
+        height: 150px;
+        width: 150px;
+        display: inline-flex;
+        background-color: #75429262;
+        margin: 5px 5px 5px 5px;
+        pointer-events: all;
+    }
+
+    .janelaJogo div:hover{
+        background-color: #160c1bc7;
+        
+    }
+
+    .square.clicado{
+        pointer-events: none;
+    }
+
+    .mostradorVez {
+        font-family: Honk;
+        font-size: 50px;
+        text-align: center;
+        margin: 15px auto auto auto;
+    }
+
+    .vencedor{
+        font-family: Honk;
+        font-size: 50px;
+        text-align: center;
+        margin: 45px auto 10px auto;
+    }
+
+    .retry{
+        font-size: 30px;
+        font-weight: 700;
+        padding: 8px 20px 8px 20px;
+        margin-inline: 30px;
+        font-family: Silkscreen;
+        color: #350722;
+        border-radius: 5px;
+    }
+
+    .backMenu{
+        font-size: 30px;
+        font-weight: 700;
+        padding: 8px 20px 8px 20px;
+        margin-inline: 30px;
+        font-family: Silkscreen;
+        color: #350722;
+        border-radius: 5px;
+    }
+
+    .botoesRetry{
+        text-align: center;
+        margin-top: 45px;
+    }
+
+    .botoesRetry button:hover{
+        background-color: #350722;
+        color: white;
+    }
+
+    .empate{
+        font-family: Honk;
+        font-size: 50px;
+        text-align: center;
+        margin: 45px auto 15px auto;
+    }
+
+    .highscores {
+        border: 1px solid #25152eb7;
+        background-color: #25152eb7;
+        border-radius: 10px;
+        margin: auto;
+        margin-top: 30px;
+        height: 500px;
+        width: 500px;
+    }
+
+    .highscoreTitle{
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        gap: 0px;
+    }
+
+    .highscoreTitle li {
+        list-style-type: none;
+        text-align: center;
+        margin-bottom: 5px;
+        margin-top: 15px;
+        font-size: 45px;
+        font-family: Honk;
+      }
+
+      .playerAndScore{
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        gap: 0px;
+    }
+
+      .playerAndScore li {
+        list-style-type: none;
+        text-align: center;
+        margin-bottom: 10px;
+        margin-top: 15px;
+        font-size: 25px;
+        color: white;
+        font-weight: bold;
+        font-family: Silkscreen;
+      }
+
+      .resetRanking {
+        text-align: center;
+        margin-top: 30px;
+      }
+
+      .resetRanking button{
+        font-size: 25px;
+        font-weight: 700;
+        padding: 8px 20px 8px 20px;
+        font-family: Silkscreen;
+        color: #350722;
+        border-radius: 5px;
+        text-align: center;
+        margin: auto;
+      }
+
+      .resetRanking button:hover{
+        background-color: #350722;
+        color: white;
+    }
+
+    .madeby {
+        text-align: center;
+        font-family: Silkscreen;
+        color: white;
+    }
+
+    .checarRanking{
+        text-align: center;
+        margin-top: 35px;
+    }
+
+    .checarRanking button:hover{
+        background-color: #350722;
+        color: white;
+    }
+
+    .continueButton{
+        display: none;
+    }
