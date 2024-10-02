@@ -165,7 +165,7 @@
         border: 10px solid #25152e83;
         border-radius: 5px;
         background-color: #25152ee3;
-        width: 380px;
+        width: max-content;
         height: max-content;
         text-align: center;
     }
